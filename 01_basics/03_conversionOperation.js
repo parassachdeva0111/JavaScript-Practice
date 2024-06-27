@@ -30,8 +30,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let booleanIsLoggedIn1 = Boolean(isLoggedIn1);
 
 
-console.log(booleanIsLoggedIn);
-console.log(booleanIsLoggedIn1);
+// console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn1);
 
 
 // 1 => tree ;
@@ -42,7 +42,10 @@ console.log(booleanIsLoggedIn1);
 let someNumber = 33;
 
 let stringNumber = String(someNumber);
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
 
+
+console.log(+true);
+console.log(+"");
 
