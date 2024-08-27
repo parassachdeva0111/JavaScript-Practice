@@ -15,7 +15,7 @@ const shoppingCart = [
         itemName: "js course",
         price: 2999
     },
-    {
+    { 
         itemName: "py course",
         price: 999
     },
@@ -29,6 +29,35 @@ const shoppingCart = [
     },
 ]
 
+
+// const priceToPay = shoppingCart.reduce((acc, item) =>{ return acc + item.price}, 0)   // This is also Correct
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+const shoppingList =[ 
+    {
+        itemName: "Pant",
+        price: 1000
+    },
+
+    {
+        itemName: "Shirt",
+        price: 700
+    },
+
+    {
+        itemName: "Coat",
+        price: 4000
+    },
+
+    {
+        itemName: "Sandles",
+        price: 1000
+    },
+
+]
+
+
+const totalPrice = shoppingList.reduce((acc , item) => acc + item.price, 0);
+console.log(`Price Total is = ${totalPrice}`);
