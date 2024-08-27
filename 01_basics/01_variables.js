@@ -4,7 +4,7 @@ var accountPassword = "1234";
 accountCity = "Punjab";
 let accountState;
 
-// accountId = 12;
+// accountId = 12; 
 
 console.log(accountId);
 console.table([accountId , accountEmail , accountPassword , accountCity , accountState]);
